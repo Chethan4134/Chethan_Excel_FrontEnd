@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         function myFunction(par1,para2)
+      {
+        return par1+para2;
+      }
+      var x=myFunction(3,5);
+      console.log(x)
+
+      /* array    
+        here the const is storing the array references so we can add any number into the array      
+      */
+      let arr = [112,121,"chethan",648,7];
+      console.log(arr);
+
+      arr.push(1);
+      console.log(arr);
+
+      console.log(arr.unshift(10)); // Its Shows the Size of the new array
+      console.log(arr);
+     
+      console.log(arr.shift());
+      console.log(arr);
+      
+      console.log(arr.pop());  //its remove the element form tha last in the array
+      console.log(arr);
+     
+     
+      arr= arr.map((element,index,arr) =>{
+        return index%2;                                      
+      })
+      console.log(arr);
+
+      arr= arr.filter((ele)=>
+    {
+      if(ele%2==1)
+      return ele;
+    })
+    console.log(arr);
+    // slpice method
+    let arr1=[41,23,453,235,55,85]
+    
+    console.log(arr1.splice(2,1,10,));
+
+    //slice method
+    let arr2=[11,22,33,44,55,66,77,88]
+    
+    console.log(arr2.slice(0,1));
+
+    //find method
+     let arr3=[10,20,30,420,50]
+     console.log(arr3.find((ele)=>{
+      return ele%2;
+     }));
+     
+     //reverse method
+
+
+     //sort method     -- it is used to custom sorting method
+
+     //reduce method  -- 
+
+     //typrof methods
+
+     let arr4 = [12,02,3,03,40]
+     console.log(arr4.reduce((sum,ele)=>{
+      return sum+ele;
+     },10));
+
+     console.log(arr4);
+
+
+     //rest operation
+     let arr5 = [12,02,3,03,40]
+
+
+     //spread operation
+    let arr6 = [12,02,3,03,40]
+     let arr7 = [...arr6,65]
+     console.log(arr7);
+
+    </script>
+</body>
+</html>

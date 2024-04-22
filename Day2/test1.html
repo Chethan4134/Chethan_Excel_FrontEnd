@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+// creating the class in javascript when we are using the oops in js then we create the class in js
+
+/*class Employee{
+    constructor(){
+        super()
+        this.state={
+            //this is used to create an object
+            empId:"",
+            empNmae:'',
+            empSal:"
+        }
+        
+    }
+}*/
+
+
+//objects
+
+var student = {
+    name: "David Raj",
+    sclass: "VI",
+    rollno: 12
+};
+
+console.log(student);
+
+delete student.rollno;
+
+console.log(student);
+
+
+// Write a program to display the reading status (i.e. display book name, author name and reading status) of the following books.
+var library = [ 
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }];
+
+   
+   
+   for (let i = 0; i < library.length; i++) {
+    const book = library[i];
+
+    console.log("Display Book :"+book.author);
+    console.log("Title Book :"+book.title);
+    console.log("Readingt status :"+book.readingStatus);
+   }
+    
+   
+   
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            height: 100px;
+        }
+
+        label {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding-left: 25px;
+            padding-top: 25px;
+            font-size: 35px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #lk1 {
+            margin-left: 1250px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            word-spacing: 20px;
+        }
+
+        #links {
+            margin-top: 35px;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        #child1 {
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        #child2 {
+            background-color: #333;
+            margin-left: 150px;
+            margin-right: 20px;
+            margin-top: 20px;
+            height: 690px;
+            width: 500px;
+        }
+
+        #parent {
+            display: flex;
+        }
+
+        .cards {
+            border: 3px solid black;
+            height: 200px;
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        #child3 {
+            display: flex;
+        }
+
+        #child4 {
+            display: flex;
+        }
+
+        .cards2 {
+            border: 3px solid black;
+            height: 200px;
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        #headers {
+            border: 1px solid black;
+            width: 200px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <label><b>My website</b></label>
+        <div id="links">
+            <a href="#" id="lk1">Link1 </a>
+            <a href="#">Link2 </a>
+            <a href="#">Link3 </a>
+        </div>
+    </div>
+
+    <div id="parent">
+        <div id="child1">
+            <h1>This is the main heading</h1>
+            <p style="font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque iure
+                consequuntur reiciendis! Omnis,beataeesse. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae quas quos amet!</p>
+            <p style="font-size: 20px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim ut corporis explicabo neque laborum
+                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. A veritatis culpa commodi est nihil
+                odit?</p>
+            <div id="child3">
+                <div class="cards">
+                    <div style="border: 3px solid #333; height: 20%; background-color: #333;">
+                        <h4 style="color: white; margin-top: 8px; margin-left: 10px;">Card One</h4>
+                    </div>
+                    <div>
+                        <p style="margin: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            veritatis odit doloremque,
+                            dolores nemo laudantium quibusdam! Culpa ex tenetur et laudantium velit vitae itaque odit.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div style="border: 3px solid #333; height: 20%; background-color: #333;">
+                        <h4 style="color: white; margin-top: 8px; margin-left: 10px;">Card Two</h4>
+                    </div>
+                    <div>
+                        <p style="margin: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            veritatis odit doloremque,
+                            dolores nemo laudantium quibusdam! Culpa ex tenetur et laudantium velit vitae itaque odit.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div style="border: 3px solid #333; height: 20%; background-color: #333;">
+                        <h4 style="color: white; margin-top: 8px; margin-left: 10px;">Card Three</h4>
+                    </div>
+                    <div>
+                        <p style="margin: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            veritatis odit doloremque,
+                            dolores nemo laudantium quibusdam! Culpa ex tenetur et laudantium velit vitae itaque odit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="child4">
+                <div class="cards2">
+                    <div style="border: 3px solid #333; height: 20%; background-color: #333;">
+                        <h4 style="color: white; margin-top: 8px; margin-left: 10px;">Card Four</h4>
+                    </div>
+                    <div>
+                        <p style="margin: 15px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            veritatis odit doloremque,
+                            dolores nemo laudantium quibusdam! Culpa ex tenetur et laudantium velit vitae itaque odit.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards2">
+                    <div style="border: 3px solid #333; height: 20%; background-color: #333;">
+                        <h4 style="color: white; margin-top: 8px; margin-left: 10px;">Card Five</h4>
+                    </div>
+                    <div>
+                        <p style="margin: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            veritatis odit doloremque,
+                            dolores nemo laudantium quibusdam! Culpa ex tenetur et laudantium velit vitae itaque odit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="child2">
+            <p style="color: white; padding: 20px; font-size: 20px;">Have you discovered all of the other excellent
+                content on this
+                website?</p>
+        </div>
+    </div>
+</body>
+
+</html>

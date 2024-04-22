@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+    <script>
+
+        //
+        var marks=45;
+        var result = (marks>90?"A":(marks>80?"B":(marks>70?"c":(marks>60?"D":(marks>50?"E":"Failed")))))
+        console.log(result)
+
+        const grade = 30;
+       
+       
+         //swtch programm
+   
+         let day=4
+    switch (day) {
+	    case 1:
+		console.log("Monday");
+		break;
+        case 2:
+		console.log("Tuesday");
+		break;
+        case 3:
+		console.log("wednusday");
+		break;
+        case 4:
+        console.log("thurday");
+		break;
+        case 5:
+		console.log("friday");
+		break;
+        case 6:
+		console.log("sauturday");
+		break;
+        case 7:
+		console.log("sunday");
+    
+        }
+        
+// fibinochi series
+        let num1= 0;
+        let num2=1;
+        var sum=0;
+        console.log(num1);
+        console.log(num2);
+        for(let i=1;i<=10;i++)
+        {
+            sum=num1+num2
+            num1=num2;
+            num2=sum;
+            console.log(sum);
+            
+        }
+       
+        
+       // factorial
+
+        let num=5;
+        let fact=1;
+        for (let i=1;i<=5;i++)
+        {
+            fact=fact*i
+        }
+        console.log(fact)
+
+        //sorting an array
+        
+        const points = [40, 100, 1, 5, 25, 10];
+        points.sort(function(a, b){return a - b});
+        console.log(points);
+        
+
+    </script>
+</body>
+</html>
