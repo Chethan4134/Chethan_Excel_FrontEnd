@@ -65,7 +65,7 @@ function App()
   return(
   // <UseTodo/>
 //<NewForm/> 
-  <Table1/>
+  <FetchComp/>
  )
 }
 
